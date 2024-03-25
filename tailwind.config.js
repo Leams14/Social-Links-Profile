@@ -10,7 +10,7 @@ module.exports = {
     
     extend:{
       screens:{
-        "mobile":"375px",
+        "mobile":"380px",
       }
     }, 
     
