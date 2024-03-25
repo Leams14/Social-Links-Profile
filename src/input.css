@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
 @layer components{
     .social-cards{
-        @apply bg-[#333] place-content-center rounded-md text-white font-bold border-none text-[10px] w-[250px] h-8 hover:bg-gradient-to-r from-white via-[#c5f82a] to-[#7dd053] hover:text-[#141414] hover: animate-pulse;
+        @apply bg-[#333] place-content-center rounded-md text-white font-bold border-none text-[10px] w-[250px] h-8 hover:bg-gradient-to-r from-white via-[#c5f82a] to-[#7dd053] hover:text-[#141414] hover:animate-pulse;
     }
 }
+*/
