@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .frontendmentor{
+        @apply text-[10px] text-white mt-10 flex justify-center items-center max-mobile:text-[8px];
+    }
+
+    .card{
+        @apply bg-[#333] place-content-center rounded-md text-white font-semibold border-none text-[14px] w-[250px] h-8 hover:bg-gradient-to-r from-white via-[#c5f82a] to-[#7dd053] hover:text-[#141414] hover:animate-pulse max-mobile:w-[200px] max-mobile:text-[11px]
+    }
+
+    .city-class{
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-[#c5f82a] to-[#7dd053] font-display font-bold pt-[3px] text-[14px]
+    }
+}
